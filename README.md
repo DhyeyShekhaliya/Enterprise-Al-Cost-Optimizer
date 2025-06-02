@@ -95,7 +95,7 @@ npm run dev
 ## 🧪 Demo & Video (Coming Soon)
 
 * 📽️ 2-minute demo video
-* 🌐 Live link
+* 🌐 Live link : https://whimsical-bombolone-6e87be.netlify.app
 * 🖼️ Screenshot gallery
 
 ---
