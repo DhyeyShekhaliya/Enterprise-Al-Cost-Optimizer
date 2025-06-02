@@ -1,7 +1,3 @@
----
-
-## ✅ Final `README.md`
-
 ````md
 # 💬 Lyzr Chatbot UI – Enterprise AI Cost Optimizer
 
