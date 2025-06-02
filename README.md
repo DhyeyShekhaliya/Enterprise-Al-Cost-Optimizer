@@ -1,54 +1,118 @@
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✅ Final `README.md`
 
-Currently, two official plugins are available:
+````md
+# 💬 Lyzr Chatbot UI – Enterprise AI Cost Optimizer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern React + TypeScript chatbot UI to interface with multiple **Lyzr AI agents**. Designed to demonstrate and operate a **multi-agent cost optimization architecture** that helps reduce AI infrastructure costs by 30–50%.
 
-## Expanding the ESLint configuration
+> 📈 **$48,000 in annual savings** from a $25,000 investment  
+> 📊 **152% ROI** powered by intelligent LLM routing and multi-agent orchestration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🎯 Objective
+
+Enable enterprise teams to interactively query specialized AI agents for:
+
+- 📉 Cost tracking and optimization
+- 🧠 Intelligent model selection
+- 🛠️ Strategic infrastructure advice
+- 💰 ROI projections
+- 🚨 Budget alerts and monitoring
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + TypeScript
+- **Styling:** Vanilla CSS
+- **API:** Lyzr Agent REST Endpoints (POST)
+- **Build Tool:** Vite
+
+---
+
+## 🧠 Multi-Agent System
+
+```text
+┌──────────── Cost Analysis Agent ───────────┐
+│ • Real-time cost tracking                  │
+│ • Hidden expense identification            │
+└────────────────────────────────────────────┘
+            ↓
+┌──────────── Model Selection Agent ─────────┐
+│ • LLM cost-performance analysis            │
+│ • Intelligent model routing                │
+└────────────────────────────────────────────┘
+            ↓
+┌─────── Optimization Recommender ───────────┐
+│ • Strategic recommendations                │
+│ • Token reduction, caching, batching       │
+└────────────────────────────────────────────┘
+            ↓
+┌──────────── ROI Calculator Agent ──────────┐
+│ • Financial impact & ROI analysis          │
+└────────────────────────────────────────────┘
+            ↓
+┌───── Alert & Monitoring Agent ─────────────┐
+│ • Budget threshold warnings                │
+│ • Model performance degradation alerts     │
+└────────────────────────────────────────────┘
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/lyzr-chat-ui.git
+cd lyzr-chat-ui
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+npm install
+```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### 3. Run locally
+
+```bash
+npm run dev
+```
+
+---
+
+## 💡 Example Use Cases
+
+| Scenario           | Current Spend | Optimized Spend | Savings  | Investment | ROI  |
+| ------------------ | ------------- | --------------- | -------- | ---------- | ---- |
+| E-commerce         | \$80,000      | \$40,000        | \$40,000 | \$20,000   | 100% |
+| Healthcare         | \$120,000     | \$72,000        | \$48,000 | \$25,000   | 92%  |
+| Financial Services | \$200,000     | \$110,000       | \$90,000 | \$30,000   | 200% |
+
+---
+
+## 🧪 Demo & Video (Coming Soon)
+
+* 📽️ 2-minute demo video
+* 🌐 Live link
+* 🖼️ Screenshot gallery
+
+---
+
+## 📜 License
+
+MIT – free to use and modify.
+
+---
+
+## 🙌 Acknowledgements
+
+* Powered by [Lyzr Studio](https://lyzr.ai)
+* Architecture includes Amazon Bedrock & Nova model integrations
+
 ```
